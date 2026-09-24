@@ -1,0 +1,31 @@
+class Q2CTFFlagTrail extends xEmitter;
+
+defaultproperties
+{
+     mSpawningType=ST_OwnerSkeleton
+     mStartParticles=0
+     mLifeRange(0)=2.000000
+     mLifeRange(1)=2.000000
+     mRegenRange(0)=30.000000
+     mRegenRange(1)=30.000000
+     mSpeedRange(0)=0.000000
+     mSpeedRange(1)=0.000000
+     mMassRange(0)=-0.030000
+     mMassRange(1)=-0.010000
+     mRandOrient=True
+     mSpinRange(0)=-75.000000
+     mSpinRange(1)=75.000000
+     mSizeRange(0)=25.000000
+     mSizeRange(1)=30.000000
+     mGrowthRate=-10.000000
+     mAttenFunc=ATF_ExpInOut
+     mRandTextures=True
+     mNumTileColumns=4
+     mNumTileRows=4
+     bNetTemporary=False
+     Physics=PHYS_Trailer
+     RemoteRole=ROLE_SimulatedProxy
+     LifeSpan=180.000000
+     Skins(0)=Texture'XEffects.EmitSmoke_t'
+     Style=STY_Additive
+}
